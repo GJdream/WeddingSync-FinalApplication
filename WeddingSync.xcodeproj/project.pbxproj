@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D1A9758184FC68B00BA3D2E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1A9757184FC68B00BA3D2E /* CoreLocation.framework */; };
+		0D1A975A184FC69400BA3D2E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1A9759184FC69400BA3D2E /* MobileCoreServices.framework */; };
+		0D1A975C184FC6A200BA3D2E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1A975B184FC6A200BA3D2E /* MediaPlayer.framework */; };
+		0D1A975E184FC6AC00BA3D2E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1A975D184FC6AC00BA3D2E /* AVFoundation.framework */; };
+		0D1A9760184FC6B500BA3D2E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1A975F184FC6B500BA3D2E /* CFNetwork.framework */; };
+		0D1A9762184FC6BF00BA3D2E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1A9761184FC6BF00BA3D2E /* MessageUI.framework */; };
+		0D1A9764184FC6D000BA3D2E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1A9763184FC6D000BA3D2E /* QuartzCore.framework */; };
+		0D1A9766184FC6DE00BA3D2E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1A9765184FC6DE00BA3D2E /* Security.framework */; };
+		0D1A9768184FC70400BA3D2E /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1A9767184FC70400BA3D2E /* DropboxSDK.framework */; };
+		0D1A976A184FC73C00BA3D2E /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1A9769184FC73C00BA3D2E /* CoreText.framework */; };
+		0D1A976D184FC77300BA3D2E /* MTPopupWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A976C184FC77300BA3D2E /* MTPopupWindow.m */; };
+		0D1A9770184FC77E00BA3D2E /* FilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A976F184FC77E00BA3D2E /* FilesViewController.m */; };
+		0D1A9773184FC79300BA3D2E /* PDFRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A9771184FC79300BA3D2E /* PDFRenderer.m */; };
+		0D1A9779184FC7F800BA3D2E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1A9774184FC7F800BA3D2E /* Default-568h@2x.png */; };
+		0D1A977A184FC7F800BA3D2E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1A9775184FC7F800BA3D2E /* Default@2x.png */; };
+		0D1A977B184FC7F800BA3D2E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1A9776184FC7F800BA3D2E /* Default.png */; };
+		0D1A977C184FC7F800BA3D2E /* 5757.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1A9777184FC7F800BA3D2E /* 5757.png */; };
+		0D1A977D184FC7F800BA3D2E /* photobox.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1A9778184FC7F800BA3D2E /* photobox.png */; };
+		0D1A9780184FC80500BA3D2E /* GPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A977F184FC80500BA3D2E /* GPSViewController.m */; };
+		0D1A9783184FC81200BA3D2E /* DropboxPhotoSaveAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A9782184FC81200BA3D2E /* DropboxPhotoSaveAppDelegate.m */; };
+		0D1A9786184FC82200BA3D2E /* DropboxPhotoSaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A9785184FC82200BA3D2E /* DropboxPhotoSaveViewController.m */; };
+		0D1A9790184FC83600BA3D2E /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1A9787184FC83600BA3D2E /* launch.png */; };
+		0D1A9791184FC83600BA3D2E /* launch29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1A9788184FC83600BA3D2E /* launch29x29.png */; };
+		0D1A9792184FC83600BA3D2E /* launch58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1A9789184FC83600BA3D2E /* launch58x58.png */; };
+		0D1A9793184FC83600BA3D2E /* launch80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1A978A184FC83600BA3D2E /* launch80x80.png */; };
+		0D1A9794184FC83600BA3D2E /* launch120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1A978B184FC83600BA3D2E /* launch120x120.png */; };
+		0D1A9795184FC83600BA3D2E /* launch960x640.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1A978C184FC83600BA3D2E /* launch960x640.png */; };
+		0D1A9796184FC83600BA3D2E /* launch1024x768.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1A978D184FC83600BA3D2E /* launch1024x768.png */; };
+		0D1A9797184FC83600BA3D2E /* launch1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1A978E184FC83600BA3D2E /* launch1024x1024.png */; };
+		0D1A9798184FC83600BA3D2E /* launch1136x640.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1A978F184FC83600BA3D2E /* launch1136x640.png */; };
+		0D1A979B184FC9C100BA3D2E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A979A184FC9C100BA3D2E /* MBProgressHUD.m */; };
+		43572D86184EF61E004ECA94 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43572D85184EF61E004ECA94 /* MapKit.framework */; };
+		43572D89184EF840004ECA94 /* HotelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43572D88184EF840004ECA94 /* HotelViewController.m */; };
+		43572D8C184EF84D004ECA94 /* ReservationsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43572D8B184EF84D004ECA94 /* ReservationsAppDelegate.m */; };
+		43572D8F184EF859004ECA94 /* ReservationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43572D8E184EF859004ECA94 /* ReservationsViewController.m */; };
+		43CBEAAF184D93EC00B606D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CBEAAE184D93EC00B606D8 /* Foundation.framework */; };
+		43CBEAB1184D93EC00B606D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CBEAB0184D93EC00B606D8 /* CoreGraphics.framework */; };
+		43CBEAB3184D93EC00B606D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CBEAB2184D93EC00B606D8 /* UIKit.framework */; };
+		43CBEAB9184D93EC00B606D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43CBEAB7184D93EC00B606D8 /* InfoPlist.strings */; };
+		43CBEABB184D93EC00B606D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CBEABA184D93EC00B606D8 /* main.m */; };
+		43CBEABF184D93EC00B606D8 /* WeddingSyncAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CBEABE184D93EC00B606D8 /* WeddingSyncAppDelegate.m */; };
+		43CBEAC2184D93EC00B606D8 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43CBEAC0184D93EC00B606D8 /* Main_iPhone.storyboard */; };
+		43CBEAC5184D93EC00B606D8 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43CBEAC3184D93EC00B606D8 /* Main_iPad.storyboard */; };
+		43CBEAC8184D93EC00B606D8 /* WeddingSyncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CBEAC7184D93EC00B606D8 /* WeddingSyncViewController.m */; };
+		43CBEACA184D93EC00B606D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43CBEAC9184D93EC00B606D8 /* Images.xcassets */; };
+		43CBEAD1184D93EC00B606D8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CBEAD0184D93EC00B606D8 /* XCTest.framework */; };
+		43CBEAD2184D93EC00B606D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CBEAAE184D93EC00B606D8 /* Foundation.framework */; };
+		43CBEAD3184D93EC00B606D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CBEAB2184D93EC00B606D8 /* UIKit.framework */; };
+		43CBEADB184D93EC00B606D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43CBEAD9184D93EC00B606D8 /* InfoPlist.strings */; };
+		43CBEADD184D93EC00B606D8 /* WeddingSyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CBEADC184D93EC00B606D8 /* WeddingSyncTests.m */; };
+		43CBEAEB184D96C800B606D8 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CBEAEA184D96C800B606D8 /* LogInViewController.m */; };
+		43CBEB25184D9C3300B606D8 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CBEB24184D9C3300B606D8 /* NavigationViewController.m */; };
+		43CBEB28184DA1B900B606D8 /* GiftRegistryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CBEB27184DA1B900B606D8 /* GiftRegistryViewController.m */; };
+		43F63DBE185441B800201CEA /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F63DBD185441B800201CEA /* libsqlite3.0.dylib */; };
+		43F63DC0185441BF00201CEA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F63DBF185441BF00201CEA /* libsqlite3.dylib */; };
+		43F63DC3185441DC00201CEA /* Plain.png in Resources */ = {isa = PBXBuildFile; fileRef = 43F63DC1185441DC00201CEA /* Plain.png */; };
+		43F63DC4185441DC00201CEA /* TitleScreen+Buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = 43F63DC2185441DC00201CEA /* TitleScreen+Buttons.png */; };
+		43F63DD0185441F700201CEA /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F63DC7185441F700201CEA /* FMDatabase.m */; };
+		43F63DD1185441F700201CEA /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F63DC9185441F700201CEA /* FMDatabaseAdditions.m */; };
+		43F63DD2185441F700201CEA /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F63DCB185441F700201CEA /* FMDatabasePool.m */; };
+		43F63DD3185441F700201CEA /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F63DCD185441F700201CEA /* FMDatabaseQueue.m */; };
+		43F63DD4185441F700201CEA /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F63DCF185441F700201CEA /* FMResultSet.m */; };
+		43F63DD71854420600201CEA /* WeddingSyncRSVPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F63DD61854420600201CEA /* WeddingSyncRSVPAppDelegate.m */; };
+		43F63DDC1854420F00201CEA /* WeddingSyncMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F63DD91854420F00201CEA /* WeddingSyncMainViewController.m */; };
+		43F63DDD1854420F00201CEA /* WeddingSyncFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F63DDB1854420F00201CEA /* WeddingSyncFlipsideViewController.m */; };
+		43F63DDF1854421600201CEA /* WeddingSync.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 43F63DDE1854421600201CEA /* WeddingSync.sqlite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43CBEAD4184D93EC00B606D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43CBEAA3184D93EC00B606D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43CBEAAA184D93EC00B606D8;
+			remoteInfo = WeddingSync;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D1A9757184FC68B00BA3D2E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0D1A9759184FC69400BA3D2E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0D1A975B184FC6A200BA3D2E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		0D1A975D184FC6AC00BA3D2E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0D1A975F184FC6B500BA3D2E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0D1A9761184FC6BF00BA3D2E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0D1A9763184FC6D000BA3D2E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0D1A9765184FC6DE00BA3D2E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0D1A9767184FC70400BA3D2E /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		0D1A9769184FC73C00BA3D2E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		0D1A976B184FC77300BA3D2E /* MTPopupWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPopupWindow.h; sourceTree = "<group>"; };
+		0D1A976C184FC77300BA3D2E /* MTPopupWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPopupWindow.m; sourceTree = "<group>"; };
+		0D1A976E184FC77E00BA3D2E /* FilesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilesViewController.h; sourceTree = "<group>"; };
+		0D1A976F184FC77E00BA3D2E /* FilesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilesViewController.m; sourceTree = "<group>"; };
+		0D1A9771184FC79300BA3D2E /* PDFRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFRenderer.m; sourceTree = "<group>"; };
+		0D1A9772184FC79300BA3D2E /* PDFRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFRenderer.h; sourceTree = "<group>"; };
+		0D1A9774184FC7F800BA3D2E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0D1A9775184FC7F800BA3D2E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0D1A9776184FC7F800BA3D2E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0D1A9777184FC7F800BA3D2E /* 5757.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5757.png; sourceTree = "<group>"; };
+		0D1A9778184FC7F800BA3D2E /* photobox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photobox.png; sourceTree = "<group>"; };
+		0D1A977E184FC80500BA3D2E /* GPSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSViewController.h; sourceTree = "<group>"; };
+		0D1A977F184FC80500BA3D2E /* GPSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSViewController.m; sourceTree = "<group>"; };
+		0D1A9781184FC81200BA3D2E /* DropboxPhotoSaveAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropboxPhotoSaveAppDelegate.h; sourceTree = "<group>"; };
+		0D1A9782184FC81200BA3D2E /* DropboxPhotoSaveAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropboxPhotoSaveAppDelegate.m; sourceTree = "<group>"; };
+		0D1A9784184FC82200BA3D2E /* DropboxPhotoSaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropboxPhotoSaveViewController.h; sourceTree = "<group>"; };
+		0D1A9785184FC82200BA3D2E /* DropboxPhotoSaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropboxPhotoSaveViewController.m; sourceTree = "<group>"; };
+		0D1A9787184FC83600BA3D2E /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		0D1A9788184FC83600BA3D2E /* launch29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch29x29.png; sourceTree = "<group>"; };
+		0D1A9789184FC83600BA3D2E /* launch58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch58x58.png; sourceTree = "<group>"; };
+		0D1A978A184FC83600BA3D2E /* launch80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch80x80.png; sourceTree = "<group>"; };
+		0D1A978B184FC83600BA3D2E /* launch120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch120x120.png; sourceTree = "<group>"; };
+		0D1A978C184FC83600BA3D2E /* launch960x640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch960x640.png; sourceTree = "<group>"; };
+		0D1A978D184FC83600BA3D2E /* launch1024x768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch1024x768.png; sourceTree = "<group>"; };
+		0D1A978E184FC83600BA3D2E /* launch1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch1024x1024.png; sourceTree = "<group>"; };
+		0D1A978F184FC83600BA3D2E /* launch1136x640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch1136x640.png; sourceTree = "<group>"; };
+		0D1A9799184FC9C100BA3D2E /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		0D1A979A184FC9C100BA3D2E /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		43572D85184EF61E004ECA94 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		43572D87184EF840004ECA94 /* HotelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelViewController.h; sourceTree = "<group>"; };
+		43572D88184EF840004ECA94 /* HotelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelViewController.m; sourceTree = "<group>"; };
+		43572D8A184EF84D004ECA94 /* ReservationsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReservationsAppDelegate.h; sourceTree = "<group>"; };
+		43572D8B184EF84D004ECA94 /* ReservationsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReservationsAppDelegate.m; sourceTree = "<group>"; };
+		43572D8D184EF859004ECA94 /* ReservationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReservationsViewController.h; sourceTree = "<group>"; };
+		43572D8E184EF859004ECA94 /* ReservationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReservationsViewController.m; sourceTree = "<group>"; };
+		43CBEAAB184D93EC00B606D8 /* WeddingSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeddingSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43CBEAAE184D93EC00B606D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		43CBEAB0184D93EC00B606D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		43CBEAB2184D93EC00B606D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		43CBEAB6184D93EC00B606D8 /* WeddingSync-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeddingSync-Info.plist"; sourceTree = "<group>"; };
+		43CBEAB8184D93EC00B606D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		43CBEABA184D93EC00B606D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43CBEABC184D93EC00B606D8 /* WeddingSync-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeddingSync-Prefix.pch"; sourceTree = "<group>"; };
+		43CBEABD184D93EC00B606D8 /* WeddingSyncAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeddingSyncAppDelegate.h; sourceTree = "<group>"; };
+		43CBEABE184D93EC00B606D8 /* WeddingSyncAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeddingSyncAppDelegate.m; sourceTree = "<group>"; };
+		43CBEAC1184D93EC00B606D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		43CBEAC4184D93EC00B606D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		43CBEAC6184D93EC00B606D8 /* WeddingSyncViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeddingSyncViewController.h; sourceTree = "<group>"; };
+		43CBEAC7184D93EC00B606D8 /* WeddingSyncViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeddingSyncViewController.m; sourceTree = "<group>"; };
+		43CBEAC9184D93EC00B606D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		43CBEACF184D93EC00B606D8 /* WeddingSyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeddingSyncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43CBEAD0184D93EC00B606D8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		43CBEAD8184D93EC00B606D8 /* WeddingSyncTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeddingSyncTests-Info.plist"; sourceTree = "<group>"; };
+		43CBEADA184D93EC00B606D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		43CBEADC184D93EC00B606D8 /* WeddingSyncTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeddingSyncTests.m; sourceTree = "<group>"; };
+		43CBEAE9184D96C800B606D8 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		43CBEAEA184D96C800B606D8 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		43CBEB23184D9C3300B606D8 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		43CBEB24184D9C3300B606D8 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		43CBEB26184DA1B900B606D8 /* GiftRegistryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiftRegistryViewController.h; sourceTree = "<group>"; };
+		43CBEB27184DA1B900B606D8 /* GiftRegistryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiftRegistryViewController.m; sourceTree = "<group>"; };
+		43F63DBD185441B800201CEA /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		43F63DBF185441BF00201CEA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		43F63DC1185441DC00201CEA /* Plain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plain.png; sourceTree = "<group>"; };
+		43F63DC2185441DC00201CEA /* TitleScreen+Buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TitleScreen+Buttons.png"; sourceTree = "<group>"; };
+		43F63DC6185441F700201CEA /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		43F63DC7185441F700201CEA /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		43F63DC8185441F700201CEA /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		43F63DC9185441F700201CEA /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		43F63DCA185441F700201CEA /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		43F63DCB185441F700201CEA /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		43F63DCC185441F700201CEA /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		43F63DCD185441F700201CEA /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		43F63DCE185441F700201CEA /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		43F63DCF185441F700201CEA /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		43F63DD51854420600201CEA /* WeddingSyncRSVPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeddingSyncRSVPAppDelegate.h; sourceTree = "<group>"; };
+		43F63DD61854420600201CEA /* WeddingSyncRSVPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeddingSyncRSVPAppDelegate.m; sourceTree = "<group>"; };
+		43F63DD81854420F00201CEA /* WeddingSyncMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeddingSyncMainViewController.h; sourceTree = "<group>"; };
+		43F63DD91854420F00201CEA /* WeddingSyncMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeddingSyncMainViewController.m; sourceTree = "<group>"; };
+		43F63DDA1854420F00201CEA /* WeddingSyncFlipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeddingSyncFlipsideViewController.h; sourceTree = "<group>"; };
+		43F63DDB1854420F00201CEA /* WeddingSyncFlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeddingSyncFlipsideViewController.m; sourceTree = "<group>"; };
+		43F63DDE1854421600201CEA /* WeddingSync.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = WeddingSync.sqlite; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43CBEAA8184D93EC00B606D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F63DC0185441BF00201CEA /* libsqlite3.dylib in Frameworks */,
+				43F63DBE185441B800201CEA /* libsqlite3.0.dylib in Frameworks */,
+				0D1A976A184FC73C00BA3D2E /* CoreText.framework in Frameworks */,
+				0D1A9766184FC6DE00BA3D2E /* Security.framework in Frameworks */,
+				0D1A9764184FC6D000BA3D2E /* QuartzCore.framework in Frameworks */,
+				0D1A9762184FC6BF00BA3D2E /* MessageUI.framework in Frameworks */,
+				0D1A9760184FC6B500BA3D2E /* CFNetwork.framework in Frameworks */,
+				0D1A975E184FC6AC00BA3D2E /* AVFoundation.framework in Frameworks */,
+				0D1A9768184FC70400BA3D2E /* DropboxSDK.framework in Frameworks */,
+				0D1A975C184FC6A200BA3D2E /* MediaPlayer.framework in Frameworks */,
+				0D1A975A184FC69400BA3D2E /* MobileCoreServices.framework in Frameworks */,
+				0D1A9758184FC68B00BA3D2E /* CoreLocation.framework in Frameworks */,
+				43572D86184EF61E004ECA94 /* MapKit.framework in Frameworks */,
+				43CBEAB1184D93EC00B606D8 /* CoreGraphics.framework in Frameworks */,
+				43CBEAB3184D93EC00B606D8 /* UIKit.framework in Frameworks */,
+				43CBEAAF184D93EC00B606D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43CBEACC184D93EC00B606D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43CBEAD1184D93EC00B606D8 /* XCTest.framework in Frameworks */,
+				43CBEAD3184D93EC00B606D8 /* UIKit.framework in Frameworks */,
+				43CBEAD2184D93EC00B606D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43CBEAA2184D93EC00B606D8 = {
+			isa = PBXGroup;
+			children = (
+				43CBEAE6184D940500B606D8 /* Pages */,
+				43CBEAB4184D93EC00B606D8 /* WeddingSync */,
+				43CBEAD6184D93EC00B606D8 /* WeddingSyncTests */,
+				43CBEAAD184D93EC00B606D8 /* Frameworks */,
+				43CBEAAC184D93EC00B606D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43CBEAAC184D93EC00B606D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43CBEAAB184D93EC00B606D8 /* WeddingSync.app */,
+				43CBEACF184D93EC00B606D8 /* WeddingSyncTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43CBEAAD184D93EC00B606D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43F63DBF185441BF00201CEA /* libsqlite3.dylib */,
+				43F63DBD185441B800201CEA /* libsqlite3.0.dylib */,
+				0D1A9769184FC73C00BA3D2E /* CoreText.framework */,
+				0D1A9767184FC70400BA3D2E /* DropboxSDK.framework */,
+				0D1A9765184FC6DE00BA3D2E /* Security.framework */,
+				0D1A9763184FC6D000BA3D2E /* QuartzCore.framework */,
+				0D1A9761184FC6BF00BA3D2E /* MessageUI.framework */,
+				0D1A975F184FC6B500BA3D2E /* CFNetwork.framework */,
+				0D1A975D184FC6AC00BA3D2E /* AVFoundation.framework */,
+				0D1A975B184FC6A200BA3D2E /* MediaPlayer.framework */,
+				0D1A9759184FC69400BA3D2E /* MobileCoreServices.framework */,
+				0D1A9757184FC68B00BA3D2E /* CoreLocation.framework */,
+				43572D85184EF61E004ECA94 /* MapKit.framework */,
+				43CBEAAE184D93EC00B606D8 /* Foundation.framework */,
+				43CBEAB0184D93EC00B606D8 /* CoreGraphics.framework */,
+				43CBEAB2184D93EC00B606D8 /* UIKit.framework */,
+				43CBEAD0184D93EC00B606D8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43CBEAB4184D93EC00B606D8 /* WeddingSync */ = {
+			isa = PBXGroup;
+			children = (
+				43F63DD51854420600201CEA /* WeddingSyncRSVPAppDelegate.h */,
+				43F63DD61854420600201CEA /* WeddingSyncRSVPAppDelegate.m */,
+				0D1A9781184FC81200BA3D2E /* DropboxPhotoSaveAppDelegate.h */,
+				0D1A9782184FC81200BA3D2E /* DropboxPhotoSaveAppDelegate.m */,
+				43572D8A184EF84D004ECA94 /* ReservationsAppDelegate.h */,
+				43572D8B184EF84D004ECA94 /* ReservationsAppDelegate.m */,
+				43CBEABD184D93EC00B606D8 /* WeddingSyncAppDelegate.h */,
+				43CBEABE184D93EC00B606D8 /* WeddingSyncAppDelegate.m */,
+				43CBEAC0184D93EC00B606D8 /* Main_iPhone.storyboard */,
+				43CBEAC3184D93EC00B606D8 /* Main_iPad.storyboard */,
+				43CBEAC6184D93EC00B606D8 /* WeddingSyncViewController.h */,
+				43CBEAC7184D93EC00B606D8 /* WeddingSyncViewController.m */,
+				43CBEAC9184D93EC00B606D8 /* Images.xcassets */,
+				43CBEAB5184D93EC00B606D8 /* Supporting Files */,
+			);
+			path = WeddingSync;
+			sourceTree = "<group>";
+		};
+		43CBEAB5184D93EC00B606D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43F63DDE1854421600201CEA /* WeddingSync.sqlite */,
+				43F63DC1185441DC00201CEA /* Plain.png */,
+				43F63DC2185441DC00201CEA /* TitleScreen+Buttons.png */,
+				0D1A9787184FC83600BA3D2E /* launch.png */,
+				0D1A9788184FC83600BA3D2E /* launch29x29.png */,
+				0D1A9789184FC83600BA3D2E /* launch58x58.png */,
+				0D1A978A184FC83600BA3D2E /* launch80x80.png */,
+				0D1A978B184FC83600BA3D2E /* launch120x120.png */,
+				0D1A978C184FC83600BA3D2E /* launch960x640.png */,
+				0D1A978D184FC83600BA3D2E /* launch1024x768.png */,
+				0D1A978E184FC83600BA3D2E /* launch1024x1024.png */,
+				0D1A978F184FC83600BA3D2E /* launch1136x640.png */,
+				0D1A9774184FC7F800BA3D2E /* Default-568h@2x.png */,
+				0D1A9775184FC7F800BA3D2E /* Default@2x.png */,
+				0D1A9776184FC7F800BA3D2E /* Default.png */,
+				0D1A9777184FC7F800BA3D2E /* 5757.png */,
+				0D1A9778184FC7F800BA3D2E /* photobox.png */,
+				43CBEAB6184D93EC00B606D8 /* WeddingSync-Info.plist */,
+				43CBEAB7184D93EC00B606D8 /* InfoPlist.strings */,
+				43CBEABA184D93EC00B606D8 /* main.m */,
+				43CBEABC184D93EC00B606D8 /* WeddingSync-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43CBEAD6184D93EC00B606D8 /* WeddingSyncTests */ = {
+			isa = PBXGroup;
+			children = (
+				43CBEADC184D93EC00B606D8 /* WeddingSyncTests.m */,
+				43CBEAD7184D93EC00B606D8 /* Supporting Files */,
+			);
+			path = WeddingSyncTests;
+			sourceTree = "<group>";
+		};
+		43CBEAD7184D93EC00B606D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43CBEAD8184D93EC00B606D8 /* WeddingSyncTests-Info.plist */,
+				43CBEAD9184D93EC00B606D8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43CBEAE6184D940500B606D8 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				43F63DD81854420F00201CEA /* WeddingSyncMainViewController.h */,
+				43F63DD91854420F00201CEA /* WeddingSyncMainViewController.m */,
+				43F63DDA1854420F00201CEA /* WeddingSyncFlipsideViewController.h */,
+				43F63DDB1854420F00201CEA /* WeddingSyncFlipsideViewController.m */,
+				43F63DC5185441E800201CEA /* Database */,
+				0D1A9799184FC9C100BA3D2E /* MBProgressHUD.h */,
+				0D1A979A184FC9C100BA3D2E /* MBProgressHUD.m */,
+				0D1A9784184FC82200BA3D2E /* DropboxPhotoSaveViewController.h */,
+				0D1A9785184FC82200BA3D2E /* DropboxPhotoSaveViewController.m */,
+				0D1A977E184FC80500BA3D2E /* GPSViewController.h */,
+				0D1A977F184FC80500BA3D2E /* GPSViewController.m */,
+				0D1A9771184FC79300BA3D2E /* PDFRenderer.m */,
+				0D1A9772184FC79300BA3D2E /* PDFRenderer.h */,
+				0D1A976E184FC77E00BA3D2E /* FilesViewController.h */,
+				0D1A976F184FC77E00BA3D2E /* FilesViewController.m */,
+				0D1A976B184FC77300BA3D2E /* MTPopupWindow.h */,
+				0D1A976C184FC77300BA3D2E /* MTPopupWindow.m */,
+				43572D8D184EF859004ECA94 /* ReservationsViewController.h */,
+				43572D8E184EF859004ECA94 /* ReservationsViewController.m */,
+				43572D87184EF840004ECA94 /* HotelViewController.h */,
+				43572D88184EF840004ECA94 /* HotelViewController.m */,
+				43CBEAE9184D96C800B606D8 /* LogInViewController.h */,
+				43CBEAEA184D96C800B606D8 /* LogInViewController.m */,
+				43CBEB23184D9C3300B606D8 /* NavigationViewController.h */,
+				43CBEB24184D9C3300B606D8 /* NavigationViewController.m */,
+				43CBEB26184DA1B900B606D8 /* GiftRegistryViewController.h */,
+				43CBEB27184DA1B900B606D8 /* GiftRegistryViewController.m */,
+			);
+			name = Pages;
+			sourceTree = "<group>";
+		};
+		43F63DC5185441E800201CEA /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				43F63DC6185441F700201CEA /* FMDatabase.h */,
+				43F63DC7185441F700201CEA /* FMDatabase.m */,
+				43F63DC8185441F700201CEA /* FMDatabaseAdditions.h */,
+				43F63DC9185441F700201CEA /* FMDatabaseAdditions.m */,
+				43F63DCA185441F700201CEA /* FMDatabasePool.h */,
+				43F63DCB185441F700201CEA /* FMDatabasePool.m */,
+				43F63DCC185441F700201CEA /* FMDatabaseQueue.h */,
+				43F63DCD185441F700201CEA /* FMDatabaseQueue.m */,
+				43F63DCE185441F700201CEA /* FMResultSet.h */,
+				43F63DCF185441F700201CEA /* FMResultSet.m */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43CBEAAA184D93EC00B606D8 /* WeddingSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43CBEAE0184D93EC00B606D8 /* Build configuration list for PBXNativeTarget "WeddingSync" */;
+			buildPhases = (
+				43CBEAA7184D93EC00B606D8 /* Sources */,
+				43CBEAA8184D93EC00B606D8 /* Frameworks */,
+				43CBEAA9184D93EC00B606D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeddingSync;
+			productName = WeddingSync;
+			productReference = 43CBEAAB184D93EC00B606D8 /* WeddingSync.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43CBEACE184D93EC00B606D8 /* WeddingSyncTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43CBEAE3184D93EC00B606D8 /* Build configuration list for PBXNativeTarget "WeddingSyncTests" */;
+			buildPhases = (
+				43CBEACB184D93EC00B606D8 /* Sources */,
+				43CBEACC184D93EC00B606D8 /* Frameworks */,
+				43CBEACD184D93EC00B606D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43CBEAD5184D93EC00B606D8 /* PBXTargetDependency */,
+			);
+			name = WeddingSyncTests;
+			productName = WeddingSyncTests;
+			productReference = 43CBEACF184D93EC00B606D8 /* WeddingSyncTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43CBEAA3184D93EC00B606D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WeddingSync;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "RVC Student";
+				TargetAttributes = {
+					43CBEACE184D93EC00B606D8 = {
+						TestTargetID = 43CBEAAA184D93EC00B606D8;
+					};
+				};
+			};
+			buildConfigurationList = 43CBEAA6184D93EC00B606D8 /* Build configuration list for PBXProject "WeddingSync" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43CBEAA2184D93EC00B606D8;
+			productRefGroup = 43CBEAAC184D93EC00B606D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43CBEAAA184D93EC00B606D8 /* WeddingSync */,
+				43CBEACE184D93EC00B606D8 /* WeddingSyncTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43CBEAA9184D93EC00B606D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D1A977A184FC7F800BA3D2E /* Default@2x.png in Resources */,
+				0D1A9794184FC83600BA3D2E /* launch120x120.png in Resources */,
+				43F63DDF1854421600201CEA /* WeddingSync.sqlite in Resources */,
+				43F63DC4185441DC00201CEA /* TitleScreen+Buttons.png in Resources */,
+				43F63DC3185441DC00201CEA /* Plain.png in Resources */,
+				43CBEAC5184D93EC00B606D8 /* Main_iPad.storyboard in Resources */,
+				43CBEACA184D93EC00B606D8 /* Images.xcassets in Resources */,
+				0D1A9796184FC83600BA3D2E /* launch1024x768.png in Resources */,
+				0D1A977C184FC7F800BA3D2E /* 5757.png in Resources */,
+				43CBEAC2184D93EC00B606D8 /* Main_iPhone.storyboard in Resources */,
+				0D1A9793184FC83600BA3D2E /* launch80x80.png in Resources */,
+				0D1A9791184FC83600BA3D2E /* launch29x29.png in Resources */,
+				0D1A977D184FC7F800BA3D2E /* photobox.png in Resources */,
+				0D1A9790184FC83600BA3D2E /* launch.png in Resources */,
+				0D1A977B184FC7F800BA3D2E /* Default.png in Resources */,
+				0D1A9779184FC7F800BA3D2E /* Default-568h@2x.png in Resources */,
+				0D1A9797184FC83600BA3D2E /* launch1024x1024.png in Resources */,
+				0D1A9795184FC83600BA3D2E /* launch960x640.png in Resources */,
+				43CBEAB9184D93EC00B606D8 /* InfoPlist.strings in Resources */,
+				0D1A9792184FC83600BA3D2E /* launch58x58.png in Resources */,
+				0D1A9798184FC83600BA3D2E /* launch1136x640.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43CBEACD184D93EC00B606D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43CBEADB184D93EC00B606D8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43CBEAA7184D93EC00B606D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43572D89184EF840004ECA94 /* HotelViewController.m in Sources */,
+				0D1A9786184FC82200BA3D2E /* DropboxPhotoSaveViewController.m in Sources */,
+				43F63DD2185441F700201CEA /* FMDatabasePool.m in Sources */,
+				43F63DD71854420600201CEA /* WeddingSyncRSVPAppDelegate.m in Sources */,
+				43F63DDD1854420F00201CEA /* WeddingSyncFlipsideViewController.m in Sources */,
+				0D1A9773184FC79300BA3D2E /* PDFRenderer.m in Sources */,
+				0D1A9780184FC80500BA3D2E /* GPSViewController.m in Sources */,
+				43F63DD3185441F700201CEA /* FMDatabaseQueue.m in Sources */,
+				43F63DD0185441F700201CEA /* FMDatabase.m in Sources */,
+				43F63DD1185441F700201CEA /* FMDatabaseAdditions.m in Sources */,
+				0D1A976D184FC77300BA3D2E /* MTPopupWindow.m in Sources */,
+				43F63DD4185441F700201CEA /* FMResultSet.m in Sources */,
+				0D1A9770184FC77E00BA3D2E /* FilesViewController.m in Sources */,
+				43CBEAEB184D96C800B606D8 /* LogInViewController.m in Sources */,
+				43CBEB28184DA1B900B606D8 /* GiftRegistryViewController.m in Sources */,
+				43CBEABF184D93EC00B606D8 /* WeddingSyncAppDelegate.m in Sources */,
+				43CBEB25184D9C3300B606D8 /* NavigationViewController.m in Sources */,
+				43572D8C184EF84D004ECA94 /* ReservationsAppDelegate.m in Sources */,
+				43CBEABB184D93EC00B606D8 /* main.m in Sources */,
+				0D1A9783184FC81200BA3D2E /* DropboxPhotoSaveAppDelegate.m in Sources */,
+				43F63DDC1854420F00201CEA /* WeddingSyncMainViewController.m in Sources */,
+				43572D8F184EF859004ECA94 /* ReservationsViewController.m in Sources */,
+				43CBEAC8184D93EC00B606D8 /* WeddingSyncViewController.m in Sources */,
+				0D1A979B184FC9C100BA3D2E /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43CBEACB184D93EC00B606D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43CBEADD184D93EC00B606D8 /* WeddingSyncTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43CBEAD5184D93EC00B606D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43CBEAAA184D93EC00B606D8 /* WeddingSync */;
+			targetProxy = 43CBEAD4184D93EC00B606D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43CBEAB7184D93EC00B606D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43CBEAB8184D93EC00B606D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		43CBEAC0184D93EC00B606D8 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43CBEAC1184D93EC00B606D8 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		43CBEAC3184D93EC00B606D8 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43CBEAC4184D93EC00B606D8 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		43CBEAD9184D93EC00B606D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43CBEADA184D93EC00B606D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43CBEADE184D93EC00B606D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43CBEADF184D93EC00B606D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43CBEAE1184D93EC00B606D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/webstudent/Desktop/WeddingSync,
+					Desktop/WeddingSync,
+					/Users/tsbabygurl2307/Desktop/WeddingSync/,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeddingSync/WeddingSync-Prefix.pch";
+				INFOPLIST_FILE = "WeddingSync/WeddingSync-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		43CBEAE2184D93EC00B606D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/webstudent/Desktop/WeddingSync,
+					Desktop/WeddingSync,
+					/Users/tsbabygurl2307/Desktop/WeddingSync/,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeddingSync/WeddingSync-Prefix.pch";
+				INFOPLIST_FILE = "WeddingSync/WeddingSync-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		43CBEAE4184D93EC00B606D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WeddingSync.app/WeddingSync";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeddingSync/WeddingSync-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WeddingSyncTests/WeddingSyncTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		43CBEAE5184D93EC00B606D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WeddingSync.app/WeddingSync";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeddingSync/WeddingSync-Prefix.pch";
+				INFOPLIST_FILE = "WeddingSyncTests/WeddingSyncTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43CBEAA6184D93EC00B606D8 /* Build configuration list for PBXProject "WeddingSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43CBEADE184D93EC00B606D8 /* Debug */,
+				43CBEADF184D93EC00B606D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43CBEAE0184D93EC00B606D8 /* Build configuration list for PBXNativeTarget "WeddingSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43CBEAE1184D93EC00B606D8 /* Debug */,
+				43CBEAE2184D93EC00B606D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43CBEAE3184D93EC00B606D8 /* Build configuration list for PBXNativeTarget "WeddingSyncTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43CBEAE4184D93EC00B606D8 /* Debug */,
+				43CBEAE5184D93EC00B606D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43CBEAA3184D93EC00B606D8 /* Project object */;
+}
